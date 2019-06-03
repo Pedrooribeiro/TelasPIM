@@ -43,7 +43,7 @@ namespace PrototipoTelas
             if (isMenuOpen)
             {
                 panel2.Width -= 488;
-                if (panel2.Width ==0)
+                if (panel2.Width == 0)
                 {
                     timer1.Stop();
                     isMenuOpen = false;
@@ -144,6 +144,57 @@ namespace PrototipoTelas
         {
             ExcluirSeguro ExcluirSeguro2 = new ExcluirSeguro();
             ExcluirSeguro2.ShowDialog();
+        }
+
+        private void Button26_Click(object sender, EventArgs e)
+        {
+            CadastrarMotorista CadastrarMotorista2 = new CadastrarMotorista();
+            CadastrarMotorista2.ShowDialog();
+        }
+
+        private void Button25_Click(object sender, EventArgs e)
+        {
+            ConsultarMotorista ConsultarMotorista2 = new ConsultarMotorista();
+            ConsultarMotorista2.ShowDialog();
+        }
+
+        private void Button27_Click(object sender, EventArgs e)
+        {
+            ModificarMotorista ModificarMotorista2 = new ModificarMotorista();
+            ModificarMotorista2.ShowDialog();
+        }
+
+        private void Button23_Click(object sender, EventArgs e)
+        {
+            ExcluirMotorista ExcluirMotorista2 = new ExcluirMotorista();
+            ExcluirMotorista2.ShowDialog();
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button3_Click_1(object sender, EventArgs e)
+        {
+            if (isMenuOpen)
+            {
+                panel4.Width -= 490;
+                if (panel4.Width == 0)
+                {
+                    timer1.Stop();
+                    isMenuOpen = false;
+                }
+            }
+            else if (!isMenuOpen)
+            {
+                panel4.Width += 490;
+                if (panel4.Width == 490)
+                {
+                    timer1.Stop();
+                    isMenuOpen = true;
+                }
+            }
         }
     }
 }

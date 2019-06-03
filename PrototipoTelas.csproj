@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastrarMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarMotorista.Designer.cs">
+      <DependentUpon>CadastrarMotorista.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastrarSeguro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,12 @@
     <Compile Include="CadastrarVeiculo.Designer.cs">
       <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultarMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMotorista.Designer.cs">
+      <DependentUpon>ConsultarMotorista.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarVeiculo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +81,12 @@
     </Compile>
     <Compile Include="Crud.Designer.cs">
       <DependentUpon>Crud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirMotorista.Designer.cs">
+      <DependentUpon>ExcluirMotorista.cs</DependentUpon>
     </Compile>
     <Compile Include="ExcluirSeguro.cs">
       <SubType>Form</SubType>
@@ -88,6 +106,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModificarMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarMotorista.Designer.cs">
+      <DependentUpon>ModificarMotorista.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModificarSeguro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,17 +126,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CadastrarMotorista.resx">
+      <DependentUpon>CadastrarMotorista.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastrarSeguro.resx">
       <DependentUpon>CadastrarSeguro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastrarVeiculo.resx">
       <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarMotorista.resx">
+      <DependentUpon>ConsultarMotorista.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarVeiculo.resx">
       <DependentUpon>ConsultarVeiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Crud.resx">
       <DependentUpon>Crud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirMotorista.resx">
+      <DependentUpon>ExcluirMotorista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExcluirSeguro.resx">
       <DependentUpon>ExcluirSeguro.cs</DependentUpon>
@@ -122,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarMotorista.resx">
+      <DependentUpon>ModificarMotorista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModificarSeguro.resx">
       <DependentUpon>ModificarSeguro.cs</DependentUpon>

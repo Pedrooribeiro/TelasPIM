@@ -61,6 +61,7 @@
             this.button23 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -218,6 +219,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Motoristas";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click_1);
             // 
             // button2
             // 
@@ -350,22 +352,24 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DarkGray;
+            this.panel4.Controls.Add(this.button27);
             this.panel4.Controls.Add(this.button23);
             this.panel4.Controls.Add(this.button25);
             this.panel4.Controls.Add(this.button26);
             this.panel4.Location = new System.Drawing.Point(111, 113);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(370, 38);
+            this.panel4.Size = new System.Drawing.Size(0, 38);
             this.panel4.TabIndex = 13;
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(244, 3);
+            this.button23.Location = new System.Drawing.Point(366, 3);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(116, 30);
             this.button23.TabIndex = 5;
-            this.button23.Text = "Excluir Seguro";
+            this.button23.Text = "Excluir Motorista";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.Button23_Click);
             // 
             // button25
             // 
@@ -373,8 +377,9 @@
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(116, 30);
             this.button25.TabIndex = 4;
-            this.button25.Text = " Modificar Seguro";
+            this.button25.Text = "Consultar Motorista";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.Button25_Click);
             // 
             // button26
             // 
@@ -382,14 +387,25 @@
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(116, 30);
             this.button26.TabIndex = 2;
-            this.button26.Text = "Cadastrar Seguro";
+            this.button26.Text = "Cadastrar Motorista";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.Button26_Click);
+            // 
+            // button27
+            // 
+            this.button27.Location = new System.Drawing.Point(244, 3);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(116, 30);
+            this.button27.TabIndex = 6;
+            this.button27.Text = "Modificar Motorista";
+            this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.Button27_Click);
             // 
             // Crud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 634);
+            this.ClientSize = new System.Drawing.Size(591, 634);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -440,5 +456,6 @@
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
     }
 }
