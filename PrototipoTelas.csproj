@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6534DEAA-B658-4806-BC1C-537CB6386D3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PrototipoTelas</RootNamespace>
+    <AssemblyName>PrototipoTelas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CadastrarSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarSeguro.Designer.cs">
+      <DependentUpon>CadastrarSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarVeiculo.Designer.cs">
+      <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarVeiculo.Designer.cs">
+      <DependentUpon>ConsultarVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Crud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crud.Designer.cs">
+      <DependentUpon>Crud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirSeguro.Designer.cs">
+      <DependentUpon>ExcluirSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirVeiculo.Designer.cs">
+      <DependentUpon>ExcluirVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarSeguro.Designer.cs">
+      <DependentUpon>ModificarSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarVeiculo.Designer.cs">
+      <DependentUpon>ModificarVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CadastrarSeguro.resx">
+      <DependentUpon>CadastrarSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarVeiculo.resx">
+      <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarVeiculo.resx">
+      <DependentUpon>ConsultarVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crud.resx">
+      <DependentUpon>Crud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirSeguro.resx">
+      <DependentUpon>ExcluirSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirVeiculo.resx">
+      <DependentUpon>ExcluirVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarSeguro.resx">
+      <DependentUpon>ModificarSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarVeiculo.resx">
+      <DependentUpon>ModificarVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
