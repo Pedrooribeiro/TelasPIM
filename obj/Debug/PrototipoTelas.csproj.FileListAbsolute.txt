@@ -46,3 +46,5 @@ C:\Users\MEGAFAMILIA\Desktop\TELAS\PrototipoTelas\obj\Debug\PrototipoTelas.Exclu
 C:\Users\MEGAFAMILIA\Desktop\TELAS\PrototipoTelas\obj\Debug\PrototipoTelas.ModificarSinistro.resources
 C:\Users\MEGAFAMILIA\Desktop\TELAS\PrototipoTelas\obj\Debug\PrototipoTelas.CadastrarAluguel.resources
 C:\Users\MEGAFAMILIA\Desktop\TELAS\PrototipoTelas\obj\Debug\PrototipoTelas.GerarRelatorio.resources
+C:\Users\MEGAFAMILIA\Desktop\TELAS\PrototipoTelas\obj\Debug\PrototipoTelas.ConsultarSeguro.resources
+C:\Users\MEGAFAMILIA\Desktop\TELAS\PrototipoTelas\obj\Debug\PrototipoTelas.ConsultarRota.resources
