@@ -116,11 +116,11 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(79, 223);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 17);
+            this.label3.Size = new System.Drawing.Size(112, 17);
             this.label3.TabIndex = 18;
-            this.label3.Text = "Valor";
+            this.label3.Text = "Auto de Infração";
             // 
-            // ExlcuirMulta
+            // ExcluirMulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -135,7 +135,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "ExlcuirMulta";
+            this.Name = "ExcluirMulta";
             this.Text = "ExlcuirMulta";
             this.ResumeLayout(false);
             this.PerformLayout();

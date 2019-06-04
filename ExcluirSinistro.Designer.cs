@@ -37,10 +37,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -57,7 +53,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(289, 374);
+            this.button2.Location = new System.Drawing.Point(288, 294);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(91, 31);
             this.button2.TabIndex = 52;
@@ -67,7 +63,7 @@
             // 
             // Excluir
             // 
-            this.Excluir.Location = new System.Drawing.Point(129, 374);
+            this.Excluir.Location = new System.Drawing.Point(128, 294);
             this.Excluir.Name = "Excluir";
             this.Excluir.Size = new System.Drawing.Size(91, 31);
             this.Excluir.TabIndex = 42;
@@ -126,45 +122,11 @@
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 47;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(138, 221);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(130, 17);
-            this.label4.TabIndex = 48;
-            this.label4.Text = "Descrição Ocorrido";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(280, 221);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 49;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(138, 263);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 17);
-            this.label5.TabIndex = 50;
-            this.label5.Text = "Local";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(280, 263);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 51;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(138, 302);
+            this.label7.Location = new System.Drawing.Point(138, 225);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(54, 17);
             this.label7.TabIndex = 54;
@@ -172,7 +134,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(280, 302);
+            this.textBox6.Location = new System.Drawing.Point(280, 225);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 55;
@@ -182,15 +144,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(509, 450);
+            this.ClientSize = new System.Drawing.Size(460, 402);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
@@ -216,10 +174,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox6;
     }

@@ -178,7 +178,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "CadastrarMotorista";
-            this.Text = " ";
+            this.Text = " CadastrarMotorista";
             this.ResumeLayout(false);
             this.PerformLayout();
 

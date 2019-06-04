@@ -635,5 +635,17 @@ namespace PrototipoTelas
         {
             this.Close();
         }
+
+        private void Button53_Click(object sender, EventArgs e)
+        {
+            ConsultarSeguro ConsultarSeguro2 = new ConsultarSeguro();
+            ConsultarSeguro2.ShowDialog();
+        }
+
+        private void Button54_Click(object sender, EventArgs e)
+        {
+            ConsultarRota ConsultarRota2 = new ConsultarRota();
+            ConsultarRota2.ShowDialog();
+        }
     }
 }
